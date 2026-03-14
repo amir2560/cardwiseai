@@ -1,0 +1,12 @@
+{
+  "name": "paysmart",
+  "version": "1.0.0",
+  "description": "PaySmart — Credit Card Reward Recommendation App",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix paysmart-backend\" \"npm run dev --prefix paysmart-frontend\"",
+    "install:all": "npm install --prefix paysmart-backend && npm install --prefix paysmart-frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
